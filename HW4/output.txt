@@ -1,0 +1,67 @@
+# clear acc
+# out is (B - D): 0000000000000000 -     0
+# Carry: 0
+# Zero: 1
+# Overflow: 0
+# Sign : 0
+# add value 100
+# out is (B - D): 0000000001100100 -   100
+# Carry: 0
+# Zero: 0
+# Overflow: 0
+# Sign : 0
+# hold a value in acc
+# out is (B - D): 0000000001100100 -   100
+# Carry: 0
+# Zero: 0
+# Overflow: 0
+# Sign : 0
+# sub value 50
+# out is (B - D): 0000000000110010 -    50
+# Carry: 1
+# Zero: 0
+# Overflow: 0
+# Sign : 0
+# and value with 31
+# out is (B - D): 0000000000010010 -    18
+# Carry: 0
+# Zero: 0
+# Overflow: 0
+# Sign : 0
+# neg value of acc
+# out is (B - D): 1111111111101110 - 65518
+# Carry: 0
+# Zero: 0
+# Overflow: 0
+# Sign : 1
+# not value of acc
+# out is (B - D): 0000000000010001 -    17
+# Carry: 0
+# Zero: 0
+# Overflow: 0
+# Sign : 0
+# xor with 15
+# out is (B - D): 0000000000011110 -    30
+# Carry: 0
+# Zero: 0
+# Overflow: 0
+# Sign : 0
+# now we are going to test OF
+# clear acc
+# out is (B - D): 0000000000000000 -     0
+# Carry: 0
+# Zero: 1
+# Overflow: 0
+# Sign : 0
+# add value 1000
+# out is (B - D): 0000001111101000 -  1000
+# Carry: 0
+# Zero: 0
+# Overflow: 0
+# Sign : 0
+# add value max
+# out is (B - D): 1000001111100111 - 33767
+# Carry: 0
+# Zero: 0
+# Overflow: 1
+# Sign : 1

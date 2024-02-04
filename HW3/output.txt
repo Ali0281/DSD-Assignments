@@ -1,0 +1,40 @@
+# writing some values
+# write value : 1
+# input/output value :   200
+# addres value :  100
+# write value : 1
+# input/output value :   100
+# addres value :  200
+# write value : 1
+# input/output value :   300
+# addres value :  300
+# read some values
+# write value : 0
+# input/output value :   100
+# addres value :  200
+# write value : 0
+# input/output value :   200
+# addres value :  100
+# write value : 0
+# input/output value :     x
+# addres value :  400
+# overwrite and write some other values
+# write value : 1
+# input/output value :   400
+# addres value :  300
+# write value : 1
+# input/output value :   300
+# addres value :  400
+# write value : 1
+# input/output value :   500
+# addres value :  500
+# read some values
+# write value : 0
+# input/output value :   500
+# addres value :  500
+# write value : 0
+# input/output value :   400
+# addres value :  300
+# write value : 0
+# input/output value :   300
+# addres value :  400
